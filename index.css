@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    color: white;
+    text-align: center;
+    background: url("bball.jpeg") no-repeat fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px 30px;
+    width: 575px;
+    justify-content: center;
+    border: 2px solid white;
+    background: #6D28D9;
+    opacity: 0.8;
+}
+
+#home-score {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 100;
+    border-radius: 10px;
+}
+
+#guest-score {
+   background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 100;
+    border-radius: 10px; 
+}
+
+button {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: #F94F6D;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
